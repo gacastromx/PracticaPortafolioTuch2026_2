@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.V. William Eduardo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .cv-hoja {
+            width: 80%;
+            max-width: 900px;
+            margin: 2rem auto;
+            background: white;
+            padding: 3rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .cv-header {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        .cv-header h1 { margin: 0; font-size: 2.2rem; color: #1e3c72; }
+        .cv-datos-contacto p { margin: 5px 0; font-size: 0.9rem; color: #555; text-align: right; }
+        .cv-datos-personales { font-size: 0.9rem; margin-top: 10px; color: #555; }
+        .cv-seccion { margin-bottom: 1.5rem; }
+        .cv-seccion h2 { font-size: 1.3rem; border-bottom: 1px solid #ccc; padding-bottom: 5px; color: #2a5298; }
+        .cv-competencias { display: flex; justify-content: space-between; }
+        .cv-competencias ul { width: 45%; padding-left: 20px; font-size: 0.95rem; }
+        .btn-volver { display: inline-block; background: #2a5298; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-bottom: 20px; }
+        .btn-volver:hover { background: #1e3c72; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Perfil Profesional</h1>
+    </header>
+
+    <main>
+        <div style="width: 80%; max-width: 900px; margin: 1rem auto;">
+            <a href="index.html" class="btn-volver">← Volver al Inicio</a>
+        </div>
+
+        <section class="cv-hoja">
+            <div class="cv-header">
+                <div>
+                    <h1>William Eduardo<br>Antonio Marcelo</h1>
+                    <div class="cv-datos-personales">
+                        <span>Fecha de nacimiento: 18 de diciembre de 2006</span> &nbsp;|&nbsp; <span>Nacionalidad: Mexicana.</span>
+                    </div>
+                </div>
+                <div class="cv-datos-contacto">
+                    <p>📍 Calle Poniente 16 Mz 114 lote 8, Colonia San Miguel Xico 4ta Sección, C.P. 56613, Valle de Chalco Solidaridad, Estado De México</p>
+                    <p>✉️ willyeduardoantonio28@gmail.com</p>
+                    <p>📞 +52 5649457274</p>
+                </div>
+            </div>
+
+            <div class="cv-seccion">
+                <h2>Síntesis</h2>
+                <p style="text-align: justify; font-size: 0.95rem; line-height: 1.5;">Estudiante entusiasta en búsqueda de una posición como practicante en una empresa que ofrezca oportunidades reales de aprendizaje y desarrollo. He colaborado en tareas de apoyo en distintos sectores, lo que me ha permitido desarrollar adaptabilidad y disposición para enfrentar nuevos retos. Me caracterizo por mi responsabilidad, capacidad para trabajar en equipo y actitud proactiva para aportar valor desde el primer día.</p>
+            </div>
+
+            <div class="cv-seccion">
+                <h2>Competencias</h2>
+                <div class="cv-competencias">
+                    <ul>
+                        <li>Actitud colaborativa</li>
+                        <li>Proactividad y dinamismo</li>
+                        <li>Dedicación</li>
+                        <li>Desarrollo profesional</li>
+                        <li>Seguimiento de instrucciones</li>
+                        <li>Aprendizaje rápido</li>
+                        <li>Aprendizaje continuo</li>
+                    </ul>
+                    <ul>
+                        <li>Atención a las buenas prácticas</li>
+                        <li>Excelentes habilidades interpersonales</li>
+                        <li>Habilidades interpersonales sólidas</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Capacidad de adaptación</li>
+                        <li>Gestión del tiempo</li>
+                        <li>Dominio informático</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cv-seccion">
+                <h2>Experiencia</h2>
+                <p><strong>Becario | CETis 01 | Ciudad De México, Tláhuac</strong><br>Julio 2023 - Marzo 2024</p>
+                <ul style="font-size: 0.95rem; padding-left: 20px;">
+                    <li>Colaboración con los equipos de la compañía y apoyo al área que lo requiera.</li>
+                    <li>Seguimiento estricto de las indicaciones de los tutores y responsables de la práctica.</li>
+                    <li>Realización de reportes informando sobre las tareas realizadas.</li>
+                    <li>Aprendizaje y uso de las herramientas informáticas necesarias para realizar las tareas asignadas.</li>
+                    <li>Seguimiento de todas las instrucciones y tareas indicadas por los superiores.</li>
+                    <li>Participación en la planificación y organización de eventos.</li>
+                </ul>
+            </div>
+
+            <div class="cv-seccion">
+                <h2>Educación</h2>
+                <p><strong>Técnico en Programación</strong></p>
+                <ul style="font-size: 0.95rem; padding-left: 20px;">
+                    <li>Centro de Estudios Tecnológicos Industrial y de Servicios No. 01 (CETis 01)</li>
+                    <li>Especialidad: Tecnología de la Información y Computación</li>
+                    <li>Periodo: Julio 2021 – Julio 2024</li>
+                    <li>Promedio general: 9.2</li>
+                </ul>
+                <p style="font-size: 0.95rem;"><strong>Curso adicional: Agente de Ventas Digital (38 horas)</strong></p>
+                <p style="margin-top: 15px;"><strong>Actualmente cursando:</strong></p>
+                <ul style="font-size: 0.95rem; padding-left: 20px;">
+                    <li>Ingeniería en Sistemas Computacionales</li>
+                    <li>Instituto Tecnológico de Chalco</li>
+                    <li>Periodo: Septiembre 2024 – Diciembre 2027</li>
+                </ul>
+            </div>
+
+            <div class="cv-seccion">
+                <h2>Idiomas</h2>
+                <p style="font-size: 0.95rem;"><strong>Inglés:</strong> Intermedio &nbsp;&nbsp;&nbsp; <strong>Español:</strong> Nativo</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
