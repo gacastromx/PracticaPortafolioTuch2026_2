@@ -1,0 +1,192 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Jesús Raymundo Briones Contreras</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e293b;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            background: white;
+            margin: auto;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--secondary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #64748b;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: var(--secondary-color);
+            border-left: 4px solid var(--primary-color);
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+
+        .job-project {
+            margin-bottom: 15px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #0f172a;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .tag {
+            background: #e2e8f0;
+            color: #475569;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .job-header {
+                flex-direction: column;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Jesús Raymundo Briones Contreras</h1>
+            <div class="subtitle">Junior Full Stack Developer</div>
+            <div class="contact-info">
+                Chalco, Estado de México | 19 años | [Tu Teléfono] | [Tu Correo]
+            </div>
+        </header>
+
+        <section id="perfil">
+            <h2>Perfil Profesional</h2>
+            <p>
+                Estudiante de Ingeniería en Sistemas con sólida formación técnica y <strong>dominio avanzado del idioma inglés (C1)</strong>. 
+                Especializado en el desarrollo de aplicaciones web y gestión de bases de datos. Experiencia práctica en el diseño 
+                de arquitecturas escalables, automatización mediante SQL y despliegue en entornos cloud.
+            </p>
+        </section>
+
+        <section id="educacion">
+            <h2>Educación</h2>
+            <div class="job-project">
+                <div class="job-header">
+                    <span>Ingeniería en Sistemas Computacionales</span>
+                    <span>En curso</span>
+                </div>
+                <div>Tecnológico Universitario de Chalco</div>
+            </div>
+            <div class="job-project">
+                <div class="job-header">
+                    <span>Técnico en Programación</span>
+                    <span>Graduado</span>
+                </div>
+                <div>[Nombre de tu Preparatoria]</div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="tech-tags">
+                <span class="tag">JavaScript (ES6+)</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">HTML5/CSS3</span>
+                <span class="tag">Git/GitHub</span>
+                <span class="tag">Kali Linux</span>
+                <span class="tag">VirtualBox</span>
+                <span class="tag">Clever Cloud</span>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <div class="job-project">
+                <div class="job-header">
+                    <span>Sistema de Inventarios PC</span>
+                </div>
+                <p>Desarrollo integral de una plataforma web para la gestión de hardware. Implementación de backend con Node.js y persistencia de datos en MySQL.</p>
+            </div>
+            <div class="job-project">
+                <div class="job-header">
+                    <span>Automatización de Base de Datos (Verdulería)</span>
+                </div>
+                <p>Creación de una estructura relacional con triggers de auditoría automáticos para el seguimiento de transacciones e inventario en tiempo real.</p>
+            </div>
+        </section>
+
+        <section id="idiomas">
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Inglés:</strong> Avanzado (C1)</li>
+                <li><strong>Español:</strong> Nativo</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
