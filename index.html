@@ -3,57 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolios Tuch 2026</title>
+    <title>CV | Gabriel - Ingeniería de Sistemas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <h1>Portafolios Tuch 2026</h1>
-    </header>
+    <div class="cv-container">
+        <aside class="sidebar">
+            <header class="profile">
+                <div class="avatar">
+                    <i class="fas fa-terminal"></i>
+                </div>
+                <h1>Torres Hortiales Gabriel</h1>
+                <p class="tag">Ingeniería en Sistemas Computacionales</p>
+                <p class="tag">Auxiliar en Informatica</p>
+                <p class="tag">Tecnico en Empresas</p>
+            </header>
 
-    <!-- Sección principal -->
-    <main>
-        <section class="tabla-portafolio">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Enlace</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Kristo Silverio</td>
-                        <td><a href="kristo.html" target="_blank">Ver</a></td>
-                    </tr>
-                    <tr>
-                        <td>Proyecto 2</td>
-                        <td><a href="proyecto2.html" target="_blank">Ver</a></td>
-                    </tr>
-                    <tr>
-                        <td>Proyecto 3</td>
-                        <td><a href="proyecto3.html" target="_blank">Ver</a></td>
-                    </tr>
-                    <tr>
-                        <td>Alexander Diaz Hernandez</td>
-                        <td><a href="Alexander.html" target="_blank">Ver</a></td>
-                        <tr></tr>
-                        <td>William Eduardo Antonio Marcelo</td>
-                        <td><a href="CV_Willy.html" target="_blank">Ver Portafolio</a></td>
-                    </tr>
-                    <tr>
-                        <td>Andrés Filemón Hernández Mora</td>
-                        <td><a href="CV_Andres.html" target="_blank">Ver Portafolio</a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
+            <section class="contact">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><i class="fas fa-university"></i> TUVCH</li>
+                    <li><i class="fas fa-location-dot"></i> Chalco, Edo. Mex.</li>
+                    <li><i class="fab fa-github"></i> github.com/Tomoki</li>
+                </ul>
+            </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Portafolios Tuch - Todos los derechos reservados</p>
-    </footer>
+            <section class="skills">
+                <h3>Habilidades Técnicas</h3>
+                <div class="skill-tag">JavaScript / Node.js</div>
+                <div class="skill-tag">MySQL / Clever Cloud</div>
+                <div class="skill-tag">Linux (Fedora & Kali)</div>
+                <div class="skill-tag">VBA / Automatización</div>
+                <div class="skill-tag">Ciberseguridad</div>
+                <div class="skill-tag">Excel / Intermedio</div>
+            </section>
+        </aside>
+
+        <main class="main-content">
+            <section class="about">
+                <h2><i class="fas fa-user"></i> Perfil Profesional</h2>
+                <p class="text-block">
+                    Estudiante de 5to semestre en la Universidad Tecnológica de Chalco. 
+                    Enfocado en el desarrollo de soluciones full-stack, administración de base de datos 
+                    y auditorías de seguridad informática. Experiencia en despliegue de aplicaciones y automatización de procesos.
+                </p>
+            </section>
+
+            <section class="education">
+                <h2><i class="fas fa-graduation-cap"></i> Formación</h2>
+                <div class="entry">
+                    <h4>Ingeniería en Sistemas Computacionales</h4>
+                    <span class="date">Universidad Tecnológica de Chalco | 2025 - Presente</span>
+                    <p>Actualmente cursando el 5to semestre.</p>
+                </div>
+            </section>
+
+            <section class="projects">
+                <h2><i class="fas fa-code"></i> Proyectos Destacados</h2>
+                
+                <div class="project-card">
+                    <h4>Sistema de Seguridad TUC</h4>
+                    <p>Repositorio educativo sobre ciberseguridad enfocado en ataques DDoS, Phishing y Ransomware.</p>
+                    <span class="tech-used">HTML5 / CSS3 / JavaScript</span>
+                </div>
+
+                <div class="project-card">
+                    <h4>MVP Tracker Automático</h4>
+                    <p>Sistema de gestión y seguimiento de tiempos mediante macros VBA para optimización de tareas.</p>
+                    <span class="tech-used">Excel VBA</span>
+                </div>
+
+                <div class="project-card">
+                    <h4>Auditoría de Dispositivos</h4>
+                    <p>Uso de herramientas como Phantom-Droid y ADB para auditoría de seguridad en entornos Android.</p>
+                    <span class="tech-used">Kali Linux / ADB</span>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
