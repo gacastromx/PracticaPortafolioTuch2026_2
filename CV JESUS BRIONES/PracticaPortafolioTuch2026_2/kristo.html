@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Kristopher Silverio Dorantes</title>
+    <!-- Tailwind CSS para el diseño -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons para los iconos -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-border {
+            border-left: 2px solid #3b82f6;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+    <!-- Encabezado -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-6 md:flex items-center justify-between">
+            <div>
+                <h1 class="text-3xl font-bold tracking-tight text-slate-900">Kristopher Silverio Dorantes</h1>
+                <p class="text-lg text-blue-600 font-medium">Programador Web | Estudiante de Ingeniería</p>
+                <div class="flex flex-wrap gap-4 mt-3 text-slate-500 text-sm">
+                    <span class="flex items-center gap-1"><i data-lucide="map-pin" class="w-4 h-4"></i> Chalco, Estado de México</span>
+                    <span class="flex items-center gap-1"><i data-lucide="mail" class="w-4 h-4"></i> kristopher.silverio@ejemplo.com</span>
+                </div>
+            </div>
+            <div class="flex gap-3 mt-6 md:mt-0">
+                <a href="#" class="p-2 bg-slate-100 hover:bg-slate-200 rounded-full transition-colors"><i data-lucide="github" class="w-5 h-5 text-slate-700"></i></a>
+                <a href="#" class="p-2 bg-slate-100 hover:bg-slate-200 rounded-full transition-colors"><i data-lucide="linkedin" class="w-5 h-5 text-slate-700"></i></a>
+                <button onclick="window.print()" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg font-medium transition-all shadow-sm active:scale-95">
+                    <i data-lucide="download" class="w-4 h-4"></i> Imprimir / PDF
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 py-10 grid md:grid-cols-12 gap-10">
+        
+        <!-- Columna Izquierda (Sidebar) -->
+        <aside class="md:col-span-4 space-y-8">
+            <!-- Sobre mí -->
+            <section>
+                <h2 class="flex items-center gap-2 mb-4 text-slate-900 font-bold uppercase tracking-wider text-xs">
+                    <i data-lucide="user" class="w-4 h-4 text-blue-600"></i> Sobre mí
+                </h2>
+                <p class="text-slate-600 leading-relaxed text-sm">
+                    Tengo 21 años, actualmente curso el 5to cuatrimestre en el <strong>Tecnológico Universitario de Chalco</strong>. Soy un apasionado por la tecnología y el desarrollo web, enfocado en crear soluciones creativas y funcionales.
+                </p>
+            </section>
+
+            <!-- Habilidades -->
+            <section>
+                <h2 class="flex items-center gap-2 mb-4 text-slate-900 font-bold uppercase tracking-wider text-xs">
+                    <i data-lucide="code" class="w-4 h-4 text-blue-600"></i> Habilidades
+                </h2>
+                <div class="flex flex-wrap gap-2">
+                    <span class="px-2 py-1 bg-white border border-slate-200 rounded text-xs font-medium text-slate-700 shadow-sm">HTML5</span>
+                    <span class="px-2 py-1 bg-white border border-slate-200 rounded text-xs font-medium text-slate-700 shadow-sm">CSS3</span>
+                    <span class="px-2 py-1 bg-white border border-slate-200 rounded text-xs font-medium text-slate-700 shadow-sm">JavaScript</span>
+                    <span class="px-2 py-1 bg-white border border-slate-200 rounded text-xs font-medium text-slate-700 shadow-sm">C++</span>
+                    <span class="px-2 py-1 bg-white border border-slate-200 rounded text-xs font-medium text-slate-700 shadow-sm">Arduino</span>
+                    <span class="px-2 py-1 bg-white border border-slate-200 rounded text-xs font-medium text-slate-700 shadow-sm">Git</span>
+                </div>
+            </section>
+
+            <!-- Educación -->
+            <section>
+                <h2 class="flex items-center gap-2 mb-4 text-slate-900 font-bold uppercase tracking-wider text-xs">
+                    <i data-lucide="graduation-cap" class="w-4 h-4 text-blue-600"></i> Educación
+                </h2>
+                <div class="space-y-4">
+                    <div class="gradient-border pl-4">
+                        <h4 class="font-bold text-slate-800 text-sm">Ingeniería en Sistemas Computacionales</h4>
+                        <p class="text-xs text-slate-500">Tecnológico Universitario de Chalco</p>
+                        <p class="text-xs text-blue-600 mt-1 font-semibold">5to Cuatrimestre (En curso)</p>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+        <!-- Columna Derecha (Contenido Principal) -->
+        <div class="md:col-span-8 space-y-10">
+            
+            <!-- Trayectoria -->
+            <section>
+                <h2 class="flex items-center gap-2 mb-6 text-slate-900 font-bold uppercase tracking-wider text-xs">
+                    <i data-lucide="briefcase" class="w-4 h-4 text-blue-600"></i> Formación y Experiencia
+                </h2>
+                <div class="space-y-8">
+                    <div class="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-2 before:w-2 before:h-2 before:bg-blue-600 before:rounded-full">
+                        <div class="flex flex-col md:flex-row md:justify-between mb-1">
+                            <h3 class="text-base font-bold text-slate-900">Estudiante de Programación</h3>
+                            <span class="text-xs font-medium text-slate-400">2023 - Presente</span>
+                        </div>
+                        <p class="text-blue-600 font-semibold mb-2 text-xs text-sm">Tecnológico Universitario de Chalco</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Enfoque en el aprendizaje de lógica de programación, bases de datos y desarrollo de interfaces web modernas. Participación activa en laboratorios de hardware y software.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Proyectos -->
+            <section>
+                <h2 class="flex items-center gap-2 mb-6 text-slate-900 font-bold uppercase tracking-wider text-xs">
+                    <i data-lucide="cpu" class="w-4 h-4 text-blue-600"></i> Proyectos Destacados
+                </h2>
+                <div class="grid gap-6">
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 hover:border-blue-300 transition-all shadow-sm">
+                        <div class="flex items-center gap-3 mb-3">
+                            <div class="p-2 bg-blue-50 rounded-lg text-blue-600">
+                                <i data-lucide="bot"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-slate-900">Robot Autónomo Wall-E</h4>
+                        </div>
+                        <p class="text-slate-600 text-sm mb-4">
+                            Construcción de un prototipo robótico inspirado en Wall-E. Utiliza sensores ultrasónicos para evitar obstáculos y un sistema de control basado en Arduino programado en C++.
+                        </p>
+                        <div class="flex gap-2">
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-tighter">#Arduino</span>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-tighter">#C++</span>
+                            <span class="text-[10px] font-bold text-slate-400 uppercase tracking-tighter">#Hardware</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-10 text-center text-xs">
+        <p>© 2024 - Kristopher Silverio Dorantes</p>
+        <p class="mt-2">Creado para presentación profesional y académica.</p>
+    </footer>
+
+    <!-- Script para activar los iconos -->
+    <script>
+      lucide.createIcons();
+    </script>
+</body>
+</html>
